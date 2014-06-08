@@ -294,9 +294,6 @@
                         <label for="name" id="name_label">Nom - Prénom</label>
                         <input type="text" name="name" id="name" size="30" value="" class="text-input" />
 
-                        <input type="hidden" name="loc" id="loc" value="fr" class="text-input" />
-                      
-                        
                         <label for="email" id="email_label">Email</label>
                         <input type="text" name="email" id="email" size="30" value="" class="text-input" />
 
@@ -307,9 +304,21 @@
                         <textarea rows="9" name="msg" id="msg" cols="30" class="text-input" ></textarea>
                         <br />
                         <div id="form-confirmation"></div>
+
+                        <script type="text/javascript">
+                            function showRecaptcha(element) {
+                                Recaptcha.create("6LeqFcUSAAAAADcz6kt4NGucRb1SLC0vFUUGQmPv", element, {
+                                    theme: "custom",
+                                    callback: Recaptcha.focus_response_field});
+                            }
+                        </script>
+                                                				
+
                         <br/>
                         <input type="submit" name="submit" id="submit_btn" value="Envoyer" />
                     </form>
+
+
 
 
 
@@ -345,8 +354,8 @@
                     <div style="position:relative;">
 
                         <div class="quote-item">
-                            Technology over technique produces emotionless design.
-                            <div class="quote-item-author">Daniel Mall</div>
+                            Votre message a bien été envoyé, vous recevrez une réponse sous peu.
+                            <div class="quote-item-author">Cristian</div>
                         </div>
                         <div class="quote-item">
                             Graphic design will save the world right after rock and roll does.

@@ -552,6 +552,7 @@ WPW.parseWaveContactForm = function(){
 		var submitBtn = $('#submit_btn', form);
 		var formMsg = $('#msg', form);
 		var formEmail = $('#email', form);
+                var formLoc = $('#loc', form);
 		var formSubject = $('#subject', form);
 		var formName = $('#name', form);
 		var formCode = $('#recaptcha_response_field', form);
@@ -576,6 +577,7 @@ WPW.parseWaveContactForm = function(){
 					name: formName.val(),
 					email: formEmail.val(),
 					subject: formSubject.val(),
+                                        loc: formLoc.val(),
 					msg: formMsg.val(),
 					recaptcha_response_field: formCode.val(),
 					recaptcha_challenge_field: formCode2.val()

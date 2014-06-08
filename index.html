@@ -3,6 +3,8 @@
     <head>
         <title>Cristian Sanna CV</title>
 
+        <meta charset="UTF-8">
+         
         <!-- CSS -->
         <link REL=StyleSheet HREF="css/wpw.wave.cv.css" TYPE="text/css" MEDIA=screen>
         <link REL=StyleSheet HREF="css/wpw.wave.content.css" TYPE="text/css" MEDIA=screen>
@@ -272,32 +274,32 @@
                     <!-- page content - BEGIN -->
                     <p>Lorem ipsum dolor sit amet, co nse ctetur a di pisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="image-list icon-list">
-                        <a href="#" target="_blank"><img src="graphics/facebook.png" alt=""></a>
-                        <a href="#" target="_blank"><img src="graphics/skype.png" alt=""></a>
-                        <a href="#" target="_blank"><img src="graphics/twitter.png" alt=""></a>
-                        <a href="#" target="_blank"><img src="graphics/linkedin.png" alt=""></a>
-                        <a href="#" target="_blank"><img src="graphics/vimeo.png" alt=""></a>
+                        <a href="#" target="http://www.facebook.fr/radiumx"><img src="graphics/facebook.png" alt=""></a>
+                        <a href="#" target="skype:radiumx3"><img src="graphics/skype.png" alt=""></a>
+                        <a href="#" target="https://twitter.com/xRadiuM"><img src="graphics/twitter.png" alt=""></a>
+                        <a href="#" target="http://fr.linkedin.com/in/radiumx"><img src="graphics/linkedin.png" alt=""></a>
+                        <a href="#" target="https://vimeo.com/radiumx"><img src="graphics/vimeo.png" alt=""></a>
                     </div>
 
 
                     <br/>
-                    <strong>Telephone</strong>: 3554.345.334<br/>
-                    <strong>Email</strong>: user [at] company.com<br/>
-                    <strong>Address</strong>: Avenue 43 A2, VB, Hong Kong<br/>
-                    <strong>Download</strong> my resume: <a href="#"><img src="graphics/pdficon_small.gif"></a><br/>
+                    <strong>Téléphone</strong>: +33 6 12 67 35 08<br/>
+                    <strong>Email</strong>: cristian.sanna [at] live.fr <br/>
+                    <strong>Adresse</strong>: 15 rue jacquinot 54000 NANCY (France)<br/>
+                    <strong>Télécharger</strong> Mon CV : <a href="#"><img src="graphics/pdficon_small.gif"></a><br/>
 
                     <br/>
                     <br/>
 
-                    <h4>For a quick message you can use the form below.</h4>
-                    <form name="contact" method="post" action="http://test.wpworks.net/wpw_cv/php/email.php" id="wpw-wave-form">
-                        <label for="name" id="name_label">Name</label>
+                    <h4>Vous pouvez aussi me contacter grâce au formulaire ci-dessous</h4>
+                    <form name="contact" method="post" action="php/email.php" id="wpw-wave-form">
+                        <label for="name" id="name_label">Nom - Prénom</label>
                         <input type="text" name="name" id="name" size="30" value="" class="text-input" />
 
                         <label for="email" id="email_label">Email</label>
                         <input type="text" name="email" id="email" size="30" value="" class="text-input" />
 
-                        <label for="subject" id="email_label">Subject</label>
+                        <label for="subject" id="email_label">Objet</label>
                         <input type="text" name="subject" id="subject" size="30" value="" class="text-input" />
                         <br />  
                         <label for="msg" id="msg_label">Message</label>
@@ -312,21 +314,10 @@
                                     callback: Recaptcha.focus_response_field});
                             }
                         </script>
-                        <div id="recaptcha_widget" style="display:none;">
-                            <div id="recaptcha_image"></div>
-                            <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
-                            <a href="javascript:Recaptcha.reload()" class="captcha_btn" title="Get a new code, if current is ugly">Reset ^</a><span class="recaptcha_only_if_image captcha_btn" title="Write the above code here">^ Code:</span><input type="text" id="recaptcha_response_field" name="recaptcha_response_field" />
-                            <br/>
-                        </div>		
-
-                        <noscript>
-                        <iframe src="http://www.google.com/recaptcha/api/noscript?k=your_public_key" height="300" width="500" frameborder="0">.</iframe><br>
-                        <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
-                        <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
-                        </noscript>					
+                                                				
 
                         <br/>
-                        <input type="submit" name="submit" id="submit_btn" value="Send" />
+                        <input type="submit" name="submit" id="submit_btn" value="Envoyer" />
                     </form>
 
 

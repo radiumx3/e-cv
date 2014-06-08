@@ -1,0 +1,297 @@
+/**
+ * 
+ * 		title:		Creative Wave CV
+ *
+ *		author: 	Ovidiu Stefancu
+ *					http://www.wpworks.net
+ *					info@wpworks.net
+ * 
+ *		version:    1.0 - 24 May 2011
+ *
+ */
+
+
+/* TYPOGRAPHY, COLORS AND PAGE CONTENT */
+
+
+/* TEXT COLOR */
+/* I like to change the colors ofter, so I put them at the top. */
+
+html{
+	color:#756851;
+	background:#ffffff;
+}
+
+h1, h2, #footer{
+	color: #ad9275;
+	border-color: #ad9275;
+}
+
+h4, h5, strong, .skill, a{
+	color:#281612;
+	border-color:#281612;
+}
+
+
+.menu_item, .menu_item_border{
+	color:#b5a188;
+	border-color: #b5a188;
+}
+
+.selected_menu_item, .selected_menu_item .menu_item_border, .menu_item:hover{
+	color:#281612;
+	border-color: #281612;
+}
+
+
+/* HEADER */
+
+#header{
+	font-family: 'Raleway', arial, serif;
+}
+
+h1{
+	font-size:58px;
+	text-align:center;
+	border-bottom:1px solid;
+}
+
+h2{
+	text-align:right;
+	font-size:20px;
+}
+
+
+/* MENU */
+
+.menu_item{
+	font-size:35px;
+	font-family: 'Wire One', arial, serif;
+}
+
+.menu_item_border{
+	border-bottom:1px solid;
+}
+
+.selected_menu_item .menu_item_border{
+	border-bottom:2px solid;
+}
+
+
+/* PAGE CONTENT */
+
+.page{
+	font-family: 'Maven Pro', arial, serif; 
+	font-size:14px;	
+}
+
+h4{
+	font-size:115%;
+	margin-bottom:15px;
+	border-left:2px solid;
+	padding-left:10px;
+}
+
+h5{
+	font-size:100%;
+	margin-bottom:10px;
+}
+
+p{
+	margin-bottom:15px;
+}
+
+hr{
+	border:0px;
+	outline: 0px;
+	border-bottom:1px solid #eeeeee;
+	
+	padding-top:20px;
+	margin-bottom:18px;
+}
+
+ul{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+li{
+	list-style-type:square;
+	margin-left:20px;
+	display:list-item;
+}
+
+br{
+	clear:both;
+}
+
+strong, .skill{
+	font-weight:normal;
+	color:#111111;
+}
+
+/*--*/
+
+.skill{
+	position:relative;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	margin-top:12px;
+	color:#111111;
+}
+
+.skill-stars{
+	position:absolute;
+	width:50%;
+	right:0px;
+	top:0px;
+}
+
+.skill-star{
+	height:14px;
+	width:14px;
+	background:url('../graphics/stars.png') -14px 0px;
+	background-repeat:no-repeat;
+	float:right;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.full-star{
+	background:url('../graphics/stars.png') 0px 0px;
+}
+
+/* WORK HISTORY */
+
+.work-entry{
+	margin-bottom:20px;
+	padding-bottom:20px;
+	position:relative;
+	width:100%;
+}
+
+
+.work-duration{
+	position:absolute;
+	top:0px;
+	text-align:right;
+	width:100%;
+	font-size:80%;
+	padding-top:1%;
+}
+
+/* FEATURED PROJECTS */
+
+.image-list{
+	width:130%;
+}
+
+.image-list img{
+	padding:0px;
+	outline:0px;
+	margin:0px;
+	
+	margin-right:20px;
+	margin-bottom:20px;
+	display:block;
+	float:left;
+}
+
+.icon-list img{
+	margin-right:12px;
+}
+
+/* CONTACT FORM */
+
+input{
+	display:block;
+	float:right;
+	width:50%;
+}
+
+label{
+	float:left;
+	width:45%;
+}
+
+input, textarea{
+	border:0px;
+	background:#f5f5f5;
+	border-left:1px solid #aaaaaa;
+	outline: 0px;
+	position:relative;
+	overflow:hidden;
+}
+
+textarea{
+	border:0px;
+	border-left:1px solid #aaaaaa;
+	width:99%;
+}
+
+label, input, textarea{
+	margin-bottom:5px;
+}
+
+#submit_btn{
+	cursor:pointer;
+	border:0px;
+}
+
+#form-confirmation{
+	
+}
+
+#form-error{
+	color:#ff0000;
+}
+#form-ok{
+	
+}
+
+
+/*FOOTER*/
+
+
+#footer{
+	font-size:12px;
+	font-family: 'Maven Pro', arial, serif;
+	border-top:1px solid;
+}
+
+
+/* RECAPTCHA */
+
+#recaptcha_widget{
+	width:100%;
+	background:#ffffff;
+}
+
+#recaptcha_image{
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#recaptcha_response_field{
+	width:48%;
+	display:block;
+	float:right;
+	padding-left:2%;
+}
+
+.captcha_btn{
+	width:24%;
+	display:block;
+	float:left;
+	text-align:right;
+	color: inherit;
+}
+.recaptcha_only_if_image{
+	text-align:right;	
+}
+
+
+

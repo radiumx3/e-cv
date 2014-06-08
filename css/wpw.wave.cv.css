@@ -1,0 +1,211 @@
+/**
+ * 
+ * 		title:		Creative Wave CV
+ *
+ *		author: 	Ovidiu Stefancu
+ *					http://www.wpworks.net
+ *					info@wpworks.net
+ * 
+ *		version:    1.0 - 24 May 2011
+ *
+ */
+
+
+/* 	
+RESET & LAYOUT STRUCTURE
+
+The Settings for Portrait size are in the index.html file, head area. 
+
+*/
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+html, body{
+	width:100%;
+}
+
+#main{
+	width: 680px; /* default setting - to set this you need to change the index.html code - the setting area */
+	margin:0 auto;
+}
+
+#concentrator{
+	width:320px; /* default setting - to set this you need to change the index.html code - the setting area */
+	margin:0 auto;
+	position:relative;
+}
+
+#header{
+	width:100%;
+	position:relative;
+	cursor:pointer;
+	margin-bottom:20px;
+	margin-top:50px;
+}
+
+#site-content{
+	position:relative;
+}
+
+#menu{
+	width: 100%;
+	position:absolute;
+	top:0px;
+}
+
+#container{
+	width: 100%;
+	position:relative;
+	overflow:hidden;
+}
+
+#container_slide{
+	width: 100%;
+	position:absolute;
+}
+
+.containerOnTop{
+	z-index:9999;
+}
+
+/*PAGES*/
+
+.page{
+	width:100%;
+	position:absolute;
+	top:0px;
+	display:none;
+}
+
+.visiblePage{
+	display:block;
+}
+
+
+.menu_item{
+	height:45px;
+	padding-top:20px;
+	width:50%;
+	float:left;
+	position:relative;
+	cursor:pointer;
+}
+
+.blank_item{
+	
+}
+
+.menu_item_pic{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+.menu_item_border{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+.right_side{
+	text-align:right;
+}
+
+.left_side{
+	text-align:left;
+}
+
+#portrait{
+	position:absolute;
+	display:block;
+	top:0px;
+	cursor:pointer;
+}
+
+
+
+/*FOOTER*/
+
+#footer{
+	width: 100%;
+	margin-top:15px;
+	padding-top:20px;
+	position:absolute;
+}
+
+.quote-item{
+	font-style:italic;
+	position:absolute;
+	top:0px;
+	width:100%;
+}
+
+.quote-item-author{
+	font-style: normal;
+	width:100%;
+	text-align:right;
+	font-size:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+/* misc */
+
+.no-display{
+	display:none;
+}
+
+#main-preloader{
+	display:block !important;
+	margin:0 auto;
+	margin-top:200px;
+	position:absolute;
+	left:48%;
+}
+
+#giga-toggle{
+	width:100%;
+	height:100%;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+/*
+js - no script fallback
+*/
+
+.show_content .page{
+	position:relative;
+	display:block;
+	margin-top:100px;
+}
+
+.show_content #wpw-wave-form{
+	display:none;
+}
+
+.show_content #portrait{
+	position:relative;
+}
+
+
+/*
+	DEBUG CONSOLE
+*/
+
+#console{
+	font-family: Helvetica, Arial, sans-serif;
+	position:absolute;
+	left:100px;
+	top:0px;
+	height:70px;
+	z-index:8888;
+	color:#666666;
+}
